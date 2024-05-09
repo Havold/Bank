@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="accountItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AccountList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AccountSelectDefault.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Camera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChangeDefault.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ChangePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChangePassLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ForgetPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="homeFragment_tmp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InforAccPopUp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LogInPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Message.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MessageFragment_tmp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QRCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QRCode_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegisterPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Saving.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ScanQR.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SettingFragment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="StatementFragment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="statementItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="TransMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
