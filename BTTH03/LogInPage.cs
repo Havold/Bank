@@ -123,12 +123,12 @@ namespace BTTH03
         }
         private void loginBtn_MouseEnter(object sender, EventArgs e)
         {
-            loginBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\icon\\BtnLoginEnter.png");
+            loginBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\icon\\BtnLoginEnter.png");
         }
 
         private void loginBtn_MouseLeave(object sender, EventArgs e)
         {
-            loginBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\icon\\BtnLogin.png");
+            loginBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\icon\\BtnLogin.png");
         }
 
         private void signupTxt_MouseEnter(Object sender, EventArgs e)
@@ -155,12 +155,12 @@ namespace BTTH03
 
         private void backBtn_MouseEnter(Object sender, EventArgs e)
         {
-            backBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\backBtn_onMouse.png");
+            backBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\backBtn_onMouse.png");
         }
 
         private void backBtn_MouseLeave(Object sender, EventArgs e)
         {
-            backBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\backBtn.png");
+            backBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\backBtn.png");
         }
 
         private void backBtn_Click(object sender, EventArgs e)
@@ -260,13 +260,13 @@ namespace BTTH03
             if (!eyeOpen)
             {
                 eyeOpen = true;
-                eyeBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\eye_open.png");
+                eyeBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\eye_open.png");
                 txtPwd.PasswordChar = '\0';
             }
             else
             {
                 eyeOpen = false;
-                eyeBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\eye_closed.png");
+                eyeBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\eye_closed.png");
                 txtPwd.PasswordChar = '*';
             }
         }

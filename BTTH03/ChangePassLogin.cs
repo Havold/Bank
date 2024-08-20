@@ -132,13 +132,13 @@ namespace BTTH03
             if (!eyeOpen)
             {
                 eyeOpen = true;
-                eyeBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\eye_open.png");
+                eyeBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\eye_open.png");
                 txtOldPwd.PasswordChar = '\0';
             }
             else
             {
                 eyeOpen = false;
-                eyeBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\eye_closed.png");
+                eyeBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\eye_closed.png");
                 txtOldPwd.PasswordChar = '*';
             }
         }
@@ -148,13 +148,13 @@ namespace BTTH03
             if (!eyeOpen_2)
             {
                 eyeOpen_2 = true;
-                eyeBtn_2.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\eye_open.png");
+                eyeBtn_2.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\eye_open.png");
                 txtNewPwd.PasswordChar = '\0';
             }
             else
             {
                 eyeOpen_2 = false;
-                eyeBtn_2.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\eye_closed.png");
+                eyeBtn_2.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\eye_closed.png");
                 txtNewPwd.PasswordChar = '*';
             }
         }

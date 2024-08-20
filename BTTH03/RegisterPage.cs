@@ -177,22 +177,22 @@ namespace BTTH03
 
         private void signupBtn_MouseEnter(object sender, EventArgs e)
         {
-            signupBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\icon\\SignupBtnEnter.png");
+            signupBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\icon\\SignupBtnEnter.png");
         }
 
         private void signupBtn_MouseLeave(object sender, EventArgs e)
         {
-            signupBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\icon\\BtnSignup.png");
+            signupBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\icon\\BtnSignup.png");
         }
 
         private void backBtn_MouseEnter(Object sender, EventArgs e)
         {
-            backBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\backBtn_onMouse.png");
+            backBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\backBtn_onMouse.png");
         }
 
         private void backBtn_MouseLeave(Object sender, EventArgs e)
         {
-            backBtn.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\backBtn.png");
+            backBtn.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\backBtn.png");
         }
 
         private void backBtn_Click(object sender, EventArgs e)

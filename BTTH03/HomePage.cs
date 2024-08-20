@@ -15,13 +15,13 @@ namespace BTTH03
 
         private void resetIcon()
         {
-            homeIcon.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\home_off.png");
+            homeIcon.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\home_off.png");
             homeFragment.Visible = false;
-            messageIcon.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\messageOff.png");
+            messageIcon.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\messageOff.png");
             messageFragment.Visible = false;
-            statementIcon.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\graphOff.png");
+            statementIcon.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\graphOff.png");
             statementFragment.Visible = false;
-            settingIcon.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\settingOff.png");
+            settingIcon.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\settingOff.png");
             settingFragment.Visible = false;
         }
         public HomePage()
@@ -47,21 +47,21 @@ namespace BTTH03
         {
             resetIcon();
             messageFragment.LoadSms();
-            messageIcon.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\messageOn.png");
+            messageIcon.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\messageOn.png");
             messageFragment.Visible = true;
         }
 
         private void homeIcon_Click(object sender, EventArgs e)
         {
             resetIcon();
-            homeIcon.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\home_on.png");
+            homeIcon.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\home_on.png");
             homeFragment.Visible = true;
         }
 
         private void statementIcon_Click(object sender, EventArgs e)
         {
             resetIcon();
-            statementIcon.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\graphOn.png");
+            statementIcon.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\graphOn.png");
             statementFragment.Visible = true;
             statementFragment.setSubmit(false);
             statementFragment.loadData();
@@ -70,7 +70,7 @@ namespace BTTH03
         private void settingIcon_Click(object sender, EventArgs e)
         {
             resetIcon();
-            settingIcon.Image = Image.FromFile("D:\\C#\\BTTH03\\img\\settingOn.png");
+            settingIcon.Image = Image.FromFile("C:\\C#\\METAN-Banking\\img\\settingOn.png");
             settingFragment.Visible = true;
             // Đăng ký sự kiện từ changeDefault
             settingFragment.CloseButtonClicked += Close_CloseButtonClicked;

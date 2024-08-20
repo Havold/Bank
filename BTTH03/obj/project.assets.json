@@ -862,11 +862,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\BTTH03\\BTTH03\\BTTH03.csproj",
+      "projectUniqueName": "C:\\C#\\METAN-Banking\\BTTH03\\BTTH03.csproj",
       "projectName": "BTTH03",
-      "projectPath": "D:\\C#\\BTTH03\\BTTH03\\BTTH03.csproj",
+      "projectPath": "C:\\C#\\METAN-Banking\\BTTH03\\BTTH03.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\BTTH03\\BTTH03\\obj\\",
+      "outputPath": "C:\\C#\\METAN-Banking\\BTTH03\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -944,6 +944,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Data.SqlClient' 4.8.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

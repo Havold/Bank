@@ -55,7 +55,22 @@ namespace BTTH03
                 sqlCon.Open();
             }
 
+            // LẤY THÔNG TIN NGƯỜI VỪA ĐĂNG NHẬP VÀO
             SqlCommand sqlCmd = new SqlCommand();
+            sqlCmd.CommandType = CommandType.Text;
+            sqlCmd.CommandText = "SELECT TOP 1 USERNAME, BANK, NAME FROM ONLINE ORDER BY TIMEIN DESC";
+            sqlCmd.Connection = sqlCon;
+            SqlDataReader reader = sqlCmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                username = reader.GetString(0);
+                bankDefault = reader.GetString(1);
+                name = reader.GetString(2);
+            }
+            reader.Close();
+
+            /*SqlCommand sqlCmd = new SqlCommand();
             sqlCmd.CommandType = CommandType.Text;
             sqlCmd.CommandText = "SELECT USERNAME,BANK,NAME FROM ONLINE";
             sqlCmd.Connection = sqlCon;
@@ -66,7 +81,7 @@ namespace BTTH03
                 bankDefault = reader.GetString(1);
                 name = reader.GetString(2);
             }
-            reader.Close();
+            reader.Close();*/
 
 
             sqlCmd.CommandType = CommandType.Text;

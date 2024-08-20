@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\BTTH03\\BTTH03\\BTTH03.csproj": {}
+    "C:\\C#\\METAN-Banking\\BTTH03\\BTTH03.csproj": {}
   },
   "projects": {
-    "D:\\C#\\BTTH03\\BTTH03\\BTTH03.csproj": {
+    "C:\\C#\\METAN-Banking\\BTTH03\\BTTH03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\BTTH03\\BTTH03\\BTTH03.csproj",
+        "projectUniqueName": "C:\\C#\\METAN-Banking\\BTTH03\\BTTH03.csproj",
         "projectName": "BTTH03",
-        "projectPath": "D:\\C#\\BTTH03\\BTTH03\\BTTH03.csproj",
+        "projectPath": "C:\\C#\\METAN-Banking\\BTTH03\\BTTH03.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\BTTH03\\BTTH03\\obj\\",
+        "outputPath": "C:\\C#\\METAN-Banking\\BTTH03\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

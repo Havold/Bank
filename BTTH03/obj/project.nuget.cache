@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AtrFuPyV1zCnZqIJ8UehgPOrAcAOK8mndG/2TER3/NLHvcuM4uqiliP9fDkLYViP8WtMUErg1/TTdGAUWXYImQ==",
+  "dgSpecHash": "GoJIh7BS9n/HeMZy8/3c3llp6j5+NCidJfd9ClgD9tkzXQ9ok7tHRXe9oB3IzY8W+sawVgwHufFAefcN7TGing==",
   "success": true,
-  "projectFilePath": "D:\\C#\\BTTH03\\BTTH03\\BTTH03.csproj",
+  "projectFilePath": "C:\\C#\\METAN-Banking\\BTTH03\\BTTH03.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
@@ -24,6 +24,16 @@
     "C:\\Users\\USER\\.nuget\\packages\\zxing.net.bindings.windows.compatibility\\0.16.12\\zxing.net.bindings.windows.compatibility.0.16.12.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Data.SqlClient' 4.8.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
